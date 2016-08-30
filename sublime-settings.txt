@@ -1,7 +1,28 @@
 {
 	"caret_style": "phase",
+	"detect_slow_plugins": false,
 	"draw_white_space": "all",
-	"font_size": 8,
+	"file_exclude_patterns":
+	[
+		".*",
+		"favicon.ico",
+		"codekit-config.json",
+		"config.rb",
+		"config.codekit",
+		"robots.txt",
+		"humans.txt",
+		"README.md"
+	],
+	"folder_exclude_patterns":
+	[
+		"assets/css",
+		"assets/scripts",
+		"assets/images",
+		"fonts",
+		"node_modules",
+		".*"
+	],
+	"font_size": 15.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -9,7 +30,8 @@
 		"Vintage"
 	],
 	"scroll_past_end": true,
-	"tab_size": 4,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false
 }
