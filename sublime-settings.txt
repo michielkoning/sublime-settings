@@ -4,25 +4,24 @@
 	"draw_white_space": "all",
 	"file_exclude_patterns":
 	[
-		".*",
 		"favicon.ico",
 		"codekit-config.json",
 		"config.rb",
 		"config.codekit",
 		"robots.txt",
 		"humans.txt",
-		"README.md"
+		"README.md",
+		".DS_Store"
 	],
 	"folder_exclude_patterns":
 	[
 		"assets/css",
-		"assets/scripts",
-		"assets/images",
 		"fonts",
 		"node_modules",
-		".*"
+		".*",
+		"bower_components"
 	],
-	"font_size": 15.0,
+	"font_size": 14.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
